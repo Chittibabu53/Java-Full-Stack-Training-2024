@@ -12,6 +12,8 @@ public class practice {
         System.out.println("please enter the number :");
         int numb=sc.nextInt();
 
+        obj.execute();
+
         if(numb==1) {
 
             obj.speak();
