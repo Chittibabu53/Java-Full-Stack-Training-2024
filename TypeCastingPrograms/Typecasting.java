@@ -33,9 +33,9 @@ public class Typecasting {
         int num2=81;
 
 
-     char myChar= (char)num1;
+       char myChar= (char)num1;
 
-     System.out.println(myChar);
+       System.out.println(myChar);
 
 
 
