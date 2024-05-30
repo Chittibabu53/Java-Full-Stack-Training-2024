@@ -19,8 +19,6 @@ public class Typecasting {
 
         double mylong=f;
 
-
-
         System.out.println(mtInt);
 
         System.out.println(myDouble);
@@ -36,10 +34,6 @@ public class Typecasting {
        char myChar= (char)num1;
 
        System.out.println(myChar);
-
-
-
-
 
 
     }
