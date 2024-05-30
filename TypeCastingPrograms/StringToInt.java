@@ -16,11 +16,17 @@ public class StringToInt {
 
 
         // for printing datatype of the variables
-        Object [] variables ={size,noOfApplications,application};
-
+        Object [] variables ={myString,application,noOfApplications,size};
+        int i=0;
         for(Object variable:variables){
             String dataType=variable.getClass().getSimpleName();
-            System.out.println(dataType);
+            for (int num=i;num<=variables.length-1;num++){
+                System.out.println(variables[i]+" is "+dataType);
+              break;
+            }
+           i++;
+
+//            System.out.println(dataType+"");
 
         }
 
