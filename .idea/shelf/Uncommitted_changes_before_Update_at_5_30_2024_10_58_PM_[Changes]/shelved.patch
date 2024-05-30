@@ -1,0 +1,16 @@
+Index: FullStackJava.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/TypeCastingPrograms\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/practice\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/StringMethods\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+===================================================================
+diff --git a/FullStackJava.iml b/FullStackJava.iml
+--- a/FullStackJava.iml	
++++ b/FullStackJava.iml	
+@@ -7,6 +7,7 @@
+       <sourceFolder url="file://$MODULE_DIR$/practice" isTestSource="false" />
+       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+       <sourceFolder url="file://$MODULE_DIR$/StringMethods" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/WrapperClasses" isTestSource="false" />
+     </content>
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
