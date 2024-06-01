@@ -3,16 +3,29 @@ public class Palindrome {
 
     public static void  main (String []args) {
 
-        String check="6666";
-        String reverseCheck="";
+        String value="lol";
 
-        for (int i=(check.length())-1;i>=0;i--){
+        if(ispalindrome(value)){
+            System.out.println(value+" is palindrome");
+        }
+        else{
+            System.out.println(value+" is not palindrome");
+        }
 
-            reverseCheck+=check.charAt(i);
+    }
+    public static boolean ispalindrome(String value){
+        int first=0;
+        int last=value.length()-1;
+
+        while (first<last){
+            if(value.charAt(first) !=value.charAt(last)){
+                return false;
+            }
+            first++;
+            last--;
 
         }
-        System.out.println(reverseCheck);
-
+        return  true;
     }
 
 
