@@ -3,14 +3,9 @@ public class Palindrome {
 
     public static void  main (String []args) {
 
-        String value="lol";
-
-        if(ispalindrome(value)){
-            System.out.println(value+" is palindrome");
-        }
-        else{
-            System.out.println(value+" is not palindrome");
-        }
+        String value="lool";
+        String result=ispalindrome(value)? "it is palindrome":"it is not palindrome";
+        System.out.println(result);
 
     }
     public static boolean ispalindrome(String value){
