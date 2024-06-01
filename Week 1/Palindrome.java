@@ -1,27 +1,20 @@
-import java.util.Scanner;
 
 public class Palindrome {
 
-    public static void  main (String []args){
+    public static void  main (String []args) {
 
-        int r, sum = 0, temp;
-        Scanner sc =new Scanner(System.in);
+        String check="6666";
+        String reverseCheck="";
 
-        System.out.println("please enter the number :");
-        int n=sc.nextInt();
+        for (int i=(check.length())-1;i>=0;i--){
 
-        temp = n;
-        while (n > 0) {
-            r = n % 10;
-            sum = (sum * 10) + r;
-            n = n / 10;
+            reverseCheck+=check.charAt(i);
 
         }
-        if (temp == sum)
-            System.out.println(" it is a palindrome number ");
-        else
-            System.out.println("not palindrome ");
+        System.out.println(reverseCheck);
+
     }
+
 
 
 }
