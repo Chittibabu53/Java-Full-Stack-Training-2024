@@ -9,7 +9,7 @@ public class CountCharacters {
         int count =array.length;
 
         System.out.println(count);
-
+        System.out.println(name.length());
 
 
 
