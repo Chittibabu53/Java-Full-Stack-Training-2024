@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6337e1e7-9fdb-439f-8407-dcd0bb97f16d" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/Week 1/ArrayEvenIndexes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/NextSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FullStackJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FullStackJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_30_2024_10_58_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_30_2024_10_58_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/ArrayEvenIndexes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/ArrayEvenIndexes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -54,52 +51,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Addition.executor": "Run",
-    "Application.ArithmeticOperators.executor": "Run",
-    "Application.ArrayEvenIndexes.executor": "Run",
-    "Application.AssignmentOperator.executor": "Run",
-    "Application.DataTypes.executor": "Run",
-    "Application.EvenNumber.executor": "Run",
-    "Application.InputExample.executor": "Run",
-    "Application.IntToString.executor": "Run",
-    "Application.LogicalOperators.executor": "Run",
-    "Application.NextSequence.executor": "Run",
-    "Application.Palindrome.executor": "Run",
-    "Application.RelationalOperators.executor": "Run",
-    "Application.Sample.executor": "Run",
-    "Application.StringCreation.executor": "Run",
-    "Application.StringToInt.executor": "Run",
-    "Application.Strings.executor": "Run",
-    "Application.TernaryOperator.executor": "Run",
-    "Application.Typecasting.executor": "Run",
-    "Application.UnaryOperator.executor": "Run",
-    "Application.WraperClasses.executor": "Run",
-    "Application.array.executor": "Run",
-    "Application.palin.executor": "Run",
-    "Application.practice.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/baluj/IdeaProjects/FullStackJava",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Addition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArithmeticOperators.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayEvenIndexes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AssignmentOperator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataTypes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EvenNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InputExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntToString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LogicalOperators.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NextSequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RelationalOperators.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringCreation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringToInt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Strings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TernaryOperator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Typecasting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UnaryOperator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WraperClasses.executor&quot;: &quot;Run&quot;,
+    &quot;Application.array.executor&quot;: &quot;Run&quot;,
+    &quot;Application.palin.executor&quot;: &quot;Run&quot;,
+    &quot;Application.practice.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Merging master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/baluj/IdeaProjects/FullStackJava&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -133,6 +130,8 @@
       <workItem from="1717144229639" duration="2434000" />
       <workItem from="1717147021324" duration="3062000" />
       <workItem from="1717172670225" duration="4883000" />
+      <workItem from="1717205309190" duration="1267000" />
+      <workItem from="1717220951237" duration="244000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World Program">
       <option name="closed" value="true" />
