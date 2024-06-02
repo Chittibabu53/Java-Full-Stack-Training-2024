@@ -15,10 +15,8 @@ public class TernaryOperatorExamples {
 
         int marks = 85;
 
-        String grade = (marks >= 90) ? "A" :
-                (marks >= 80) ? "B" :
-                        (marks >= 70) ? "C" :
-                                (marks >= 60) ? "D" : "F";
+        String grade = (marks >= 90) ? "A" : (marks >= 80) ? "B" :
+                       (marks >= 70) ? "C" : (marks >= 60) ? "D" : "F";
 
         System.out.println("The grade is " + grade);
 
