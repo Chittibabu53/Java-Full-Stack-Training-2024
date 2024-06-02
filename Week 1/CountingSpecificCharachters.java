@@ -13,7 +13,7 @@ public class CountingSpecificCharachters {
                     }
                 }
 
-                System.out.println("The character '" + target + "' appears " + count + " times in the string.");
+                System.out.println("The character " + target + " appears " + count + " times in the string.");
             }
         }
 
