@@ -6,6 +6,5 @@ public class InstanceOf {
        System.out.println(result);
 
 
-
     }
 }
