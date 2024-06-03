@@ -5,10 +5,10 @@ class MoneyTree{
 }
 
 class money extends MoneyTree{
-      void run(){
+//      void run(){
 
       }
-}
+
 
 
 
