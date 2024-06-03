@@ -1,22 +1,32 @@
 public class Immutable {
         public static void main(String[] args) {
 
-            Integer num=10;
+
+
+                    String s="Sachin";
+                    System.out.println(System.identityHashCode(s));
+                   s= s.concat(" Tendulkar");//concat() method appends the string at the end
+                    System.out.println(System.identityHashCode(s));//will print Sachin because strings are immutable objects
+
+            int num=10;
+
+            System.out.println(System.identityHashCode(num));
+
+            num=num/2;
+
+
             System.out.println(System.identityHashCode(num));
 
 
-            Integer num1=10;
-            System.out.println(System.identityHashCode(num1));
+
+                }
+            }
 
 
 
 
 
 
-
-
-        }
-    }
 
 
 
