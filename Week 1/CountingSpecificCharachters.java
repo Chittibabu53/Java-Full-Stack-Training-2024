@@ -8,6 +8,8 @@ public class CountingSpecificCharachters {
                 System.out.println(text.length());
 
                 for (int i = 0; i < text.length(); i++) {
+
+
                     if (text.charAt(i) == target) {
                         count++;
                     }
