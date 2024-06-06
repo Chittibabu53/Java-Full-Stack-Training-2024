@@ -14,7 +14,8 @@ public class LoopUsingReturn {
             System.out.println(number);
 
             if(number==3)
-            {return;
+            {
+                return;
 
             }
         }
