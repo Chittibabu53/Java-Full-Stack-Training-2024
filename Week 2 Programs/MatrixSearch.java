@@ -16,7 +16,7 @@ public class MatrixSearch {
                 {4, 5, 6},
                 {7, 8, 9}
         };
-        int target = 5;
+        int target = 7;
         int[] result = searchMatrix(matrix, target);
         if (result[0] != -1) {
             System.out.println("Element found at row " + result[0] + ", column " + result[1]);
