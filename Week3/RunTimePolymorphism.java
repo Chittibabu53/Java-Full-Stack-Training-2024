@@ -10,11 +10,7 @@ class Child extends Parent{
     void run(){
         System.out.println("i am class");
     }
-
-
 }
-
-
 
 
 public class RunTimePolymorphism {
