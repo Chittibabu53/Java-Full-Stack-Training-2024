@@ -1,5 +1,5 @@
-import java.util.Hashtable;
-import java.util.Map;
+
+import java.util.*;
 
 
 public class Hashtable2 {
@@ -14,6 +14,7 @@ public class Hashtable2 {
             table.put(2, "Banana");
             table.put(3, "Cherry");
 
+
             // Retrieving a value based on key
             String fruit = table.get(2); // Returns "Banana"
             System.out.println("Fruit at key 2: " + fruit);
@@ -27,7 +28,7 @@ public class Hashtable2 {
             System.out.println("Table contains value 'Apple': " + hasValue);
 
             // Removing a key-value pair
-            table.remove(1);
+//            table.remove(1);
 
             // Iterating over the Hashtable
             for (Map.Entry<Integer, String> entry : table.entrySet()) {
