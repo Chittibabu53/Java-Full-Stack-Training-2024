@@ -26,6 +26,7 @@ public class Hashtable3 {
         map.put("Thirteen", 12);
         map.put("fourteen", 12);
         map.put("fifteen", 12);
+        map.put("fifteen", 12);
 
 
 
