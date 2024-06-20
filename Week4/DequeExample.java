@@ -12,12 +12,17 @@ public class DequeExample {
         sample.addFirst(2);
         sample.addLast(3);
 
-        System.out.println(sample.peek());
-        System.out.println(sample.peekFirst());
-        System.out.println(sample.peekLast());
-        sample.poll();
-        sample.pollFirst();
-        System.out.println(sample);
+//        System.out.println(sample.peek());
+//        System.out.println(sample.peekFirst());
+//        System.out.println(sample.peekLast());
+//        sample.poll();
+//        sample.pollFirst();
+//        System.out.println(sample);
+
+        for(int num:sample){
+            System.out.println(num);
+
+        }
 
     }
 }
