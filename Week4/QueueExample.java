@@ -10,14 +10,13 @@ public class QueueExample {
         Queue<Integer> sample=new ConcurrentLinkedDeque<>();
 
 
-
         sample.add(1);
         sample.add(2);
         sample.add(3);
 
 //        sample.poll();
 
-//        System.out.println(sample.peek());
+        System.out.println(sample.peek());
 
         for(int numjj:sample){
             System.out.println(numjj);
