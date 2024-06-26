@@ -1,6 +1,8 @@
 import java.util.Hashtable;
 
 public class CustomHashtable<K, V> extends Hashtable<K, V> {
+
+
     private int threshold;
     private static final float LOAD_FACTOR = 0.75f;
     private int currentCapacity;

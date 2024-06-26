@@ -10,6 +10,26 @@ public class ReversingArray {
                 System.out.println(reversed[i]);
             }
 
+
+            int  a=10;
+
+            int b=20;
+
+//            a=a+b;
+//
+//            b=a-b;
+//
+//            a=a-b;
+//
+
+            a=a^b;
+
+
+
+
+
+            System.out.println(a+""+b);
+
         }
     }
 
