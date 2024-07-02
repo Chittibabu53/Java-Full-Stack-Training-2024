@@ -18,7 +18,7 @@ public class Spiral {
 
             // Traverse downwards
             for (int i = top; i <= bottom; i++) {
-                System.out.print(matrix[i][right] + " ");
+                System.out.print(matrix[i][right] +" ");
             }
             right--;
 
