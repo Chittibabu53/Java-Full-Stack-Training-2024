@@ -1,47 +1,58 @@
-interface Inox{
-     int m=0;
-    void subbu();
+interface Subbbu{
 
-}
-interface Inox2 extends Inox{
-
-
-    void subbu();
+    void mine(int a,int b);
 }
 
-public class Documnets  implements Inox {
+interface Llo{
+
+    void ll();
+}
+
+abstract  class Jimk{
+    abstract void jimmy();
+
+    abstract  void jimm1();
+}
 
 
-    public void subbu() {
-        System.out.println("from direct");
-    }
+
+public class Documnets {
+
+
+
 
     public static void main(String[] args) {
 
-        Inox2 boj=new Inox2() {
+        Subbbu obj=(a,b)-> System.out.println("hi");
+//        {
+//            System.out.println("hi");
+//            System.out.println(a+b);
+//        };
+
+        obj.mine(1,3);
+
+
+        Subbbu kok=new Subbbu() {
             @Override
-            public void subbu() {
-                System.out.println("from ayonymours");
+            public void mine(int a, int b) {
+                System.out.println();
             }
         };
 
 
-   Inox2 obj2=()->{
-       System.out.println("hello from lambda exprression");
+        Jimk OBJ9=new Jimk(){
+            void jimmy(){
+                System.out.println("jimmy");
+            }
+
+            @Override
+            void jimm1() {
+                System.out.println("jim11");
+            }
         };
 
-
-
-   Documnets obj3=new Documnets();
-   obj3.subbu();
-   obj2.subbu();
-   boj.subbu();
-        System.out.println(m);
-
-
-
-
-
+        OBJ9.jimmy();
+        OBJ9.jimm1();
 
 
 

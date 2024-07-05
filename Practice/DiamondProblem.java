@@ -29,6 +29,9 @@ public class DiamondProblem implements B,C{
 
         DiamondProblem obj=new DiamondProblem();
 
+        B obj2=new DiamondProblem();
+        obj2.bro();
+
         obj.bro();
 
     }
