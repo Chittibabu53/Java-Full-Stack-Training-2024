@@ -45,7 +45,6 @@ public class Multithreading1 extends Zoom {
 
 
 
-
         waitingThread.start();
         Thread.sleep(1000);
         notifyThread.start();

@@ -34,40 +34,63 @@ public class ThreadBased {
 //        }
 //        System.out.println(sum);
 
+//
+//    int [] array={1,2,3,4,5,6,7,8,9,10,11,12};
+//
+//
+//    int lenth=array.length-1;
+//
+//    int logic=9;
+//    int count=0;
+//        count=lenth;
+//
+//    while (count!=0) {
+//
+//        if (logic >lenth) {
+//
+//            if(lenth!=0){
+//                lenth--;
+//            }
+//            else{
+//                lenth++;
+//            }
+//
+//            count++;
+//
+//        if(count==logic){
+//                System.out.println(array[lenth]);
+//                break;
+//            }
+//
+//        } else {
+//            System.out.println(array[logic]);
+//            break;
+//        }
+//    }
+//
 
-    int [] array={1,2};
+        int num=232;
 
+        int sum=0;
 
-    int lenth=array.length-1;
+        int temp=num;
+        while (num>0){
 
-    int logic=999;
-    int count=0;
-        count=lenth;
+            int r=num%10;
 
-    while (count!=logic) {
+            sum=(sum*10)+r;
 
-        if (logic >lenth) {
+            num=num/10;
 
-            if(lenth!=0){
-                lenth--;
-            }
-
-            else{
-                lenth++;
-            }
-
-            count++;
-
-        if(count==logic){
-                System.out.println(array[lenth]);
-                break;
-            }
-
-        } else {
-            System.out.println(array[logic]);
-            break;
         }
-    }
+        System.out.println(temp==sum);
+
+
+
+        int a=11;
+
+        System.out.println(234%100);
+        System.out.println(234/100);
 
 
 
