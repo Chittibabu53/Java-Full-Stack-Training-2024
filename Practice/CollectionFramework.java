@@ -198,8 +198,29 @@ class CollectionFramework{
         localDates.forEach(System.out::println);
 
 
+        PriorityQueue<Integer>  queue=new PriorityQueue();
+
+//        queue.add(10);
+//        queue.add(20);
+//        queue.add(15);
+//        queue.add(9);
+
+        for(int i=9;i>=0;i--){
+            queue.add(i);
+        }
+
+        // Printing the top element of PriorityQueue
+        System.out.println(queue.peek());
+
+        // Printing the top element and removing it
+        // from the PriorityQueue container
+        System.out.println(queue.poll());
+
+        // Printing the top element again
+        System.out.println(queue.peek());
 
 
+        System.out.println(queue);
 
 
 
