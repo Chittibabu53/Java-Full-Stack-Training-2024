@@ -6,12 +6,11 @@ public class Recursion extends Thread {
 
     static int recurse(int base, int power){
 
-
         if(base==power){
             base*=base;
         }
-        if(base==power*power){
-            base*=base/power;
+        if(base==power*power) {
+            base *= base / power;
 
             return base;
 
@@ -34,13 +33,6 @@ public class Recursion extends Thread {
 
        System.out.println( ClassLoader.getPlatformClassLoader());
        System.out.println(ClassLoader.getSystemClassLoader());
-
-
-
-
-
-
-
 
 
 
