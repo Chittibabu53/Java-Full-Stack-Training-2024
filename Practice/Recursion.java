@@ -1,3 +1,7 @@
+import java.util.Collections;
+import java.util.Queue;
+import java.util.concurrent.LinkedBlockingDeque;
+
 public class Recursion extends Thread {
     @Override
     public void run() {
@@ -34,7 +38,12 @@ public class Recursion extends Thread {
        System.out.println( ClassLoader.getPlatformClassLoader());
        System.out.println(ClassLoader.getSystemClassLoader());
 
+        Queue<Integer> obj=new LinkedBlockingDeque<>();
 
+        Collections.addAll(obj,1,2,3,4,5,6,8,9,7,6,5,3,797,65,6);
+
+
+        System.out.println(obj);
 
     }
 }

@@ -28,5 +28,10 @@ public class Merged {
 
 
         System.out.println(linkedList1);
+
+
+
+
+
     }
 }

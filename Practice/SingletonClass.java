@@ -1,7 +1,4 @@
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.*;
 import java.util.concurrent.PriorityBlockingQueue;
 
 public class SingletonClass {
@@ -39,6 +36,20 @@ public class SingletonClass {
 
         Collections.sort(linkedList1);
         System.out.println(linkedList1);
+
+
+        Collections.addAll(linkedList1,1,2,3,3,4);
+
+//        System.out.println(b);
+        System.out.println(linkedList1);
+
+
+        List<Integer>  list=new ArrayList<>();
+
+
+
+
+
 
     }
 

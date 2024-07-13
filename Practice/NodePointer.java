@@ -1,5 +1,3 @@
-
-
 public class NodePointer {
 
     {
@@ -12,8 +10,6 @@ public class NodePointer {
         new NodePointer();
 
         final int a=10;
-
-
 
 
 
