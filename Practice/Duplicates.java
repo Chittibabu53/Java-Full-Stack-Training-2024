@@ -5,7 +5,7 @@ public class Duplicates {
 
     public static void main(String[] args) {
 
-        CopyOnWriteArrayList<Integer> arrayList=new CopyOnWriteArrayList<Integer>();
+        ArrayList<Integer> arrayList=new ArrayList<>();
 
         arrayList.add(1);
         arrayList.add(2);
@@ -14,15 +14,31 @@ public class Duplicates {
         arrayList.add(3);
 
 
-        HashSet<Integer>  hashSet=new HashSet<>();
+        for (int i = 0; i < arrayList.size(); i++) {
+            Integer current = arrayList.get(i);
 
-        hashSet.addAll(arrayList);
-
-        arrayList.clear();
-
-        arrayList.addAll(hashSet);
+            // Check if current element is already seen before
+            for (int j = 0; j < i; j++) {
+                if (arrayList.get(j).equals(current)) {
+                    // If duplicate found, remove it and adjust index
+                    arrayList.remove(i);
+                    i--;
+                    break;
+                }
+            }
+        }
 
         System.out.println(arrayList);
+
+//        HashSet<Integer>  hashSet=new HashSet<>();
+//
+//        hashSet.addAll(arrayList);
+//
+//        arrayList.clear();
+//
+//        arrayList.addAll(hashSet);
+
+
 
 
         HashMap<Integer, String> hashMap = new HashMap<>();
