@@ -16,9 +16,13 @@ public class Duplicates {
 
         for (int i = 0; i < arrayList.size(); i++) {
             Integer current = arrayList.get(i);
+            System.out.print(current);
+
 
             // Check if current element is already seen before
             for (int j = 0; j < i; j++) {
+                System.out.println();
+                System.out.print(arrayList.get(j));
                 if (arrayList.get(j).equals(current)) {
                     // If duplicate found, remove it and adjust index
                     arrayList.remove(i);
