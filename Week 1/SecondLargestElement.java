@@ -1,6 +1,6 @@
 public class SecondLargestElement {
     public static void main(String[] args) {
-        int[] numbers = {1,2,3,5,4};
+        int[] numbers = {2,1};
         int firstMax = 0;
         int secondMax = 0;
 

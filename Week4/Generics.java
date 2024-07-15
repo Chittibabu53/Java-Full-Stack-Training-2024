@@ -8,10 +8,6 @@
       public K item2;
 
 
-
-
-
-
       public void setItem(){
           System.out.println(item);
           System.out.println(item2);
@@ -32,6 +28,8 @@ public class Generics {
         Sample<Integer,String> obj=new Sample<>(1,"jimmy");
 
         obj.setItem();
+
+        System.out.println(ClassLoader.getPlatformClassLoader());
 
 
 
