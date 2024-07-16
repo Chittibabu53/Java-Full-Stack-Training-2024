@@ -7,8 +7,12 @@ public class ComparartorInterface {
     public static void main(String[] args) throws Exception {
        HashMap<Integer,String> hashMap=new HashMap<>();
 
+       Map<Integer,String> hashMap1= Collections.synchronizedMap(hashMap);
+
         for (int i = 0; i < 11; i++) {
-            hashMap.put(i,"jyo");
+
+            int j=0;
+            hashMap.put(j,"jyo");
         }
 
 
@@ -18,6 +22,7 @@ public class ComparartorInterface {
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
 
         System.out.println(filteredMap);
+        System.out.println(hashMap);
 
 //        entryStream.filter(x->x.getKey()>5).forEach(System.out::println);
 
