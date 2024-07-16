@@ -12,12 +12,19 @@ enum Currency{
     Currency(Object rate){
         this.rate=rate;
     }
+
+    public Object getRate() {
+        return rate;
+    }
 }
 
 public class EnumInterface {
 
     public static void main(String[] args) {
 
+
+   Currency c1=Currency.nicky;
+        System.out.println(c1.getRate());
 
         for(Currency num:Currency.values()){
             System.out.println(num);
