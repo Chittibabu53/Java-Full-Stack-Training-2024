@@ -14,7 +14,9 @@ class Threading extends Thread {
         Threading thread2 = new Threading(2);
 
 
+
         thread1.start();
+
 
 
         thread2.start();

@@ -1,18 +1,22 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class NumericalList {
 
     // Helper method to print a list of numerical values
-    public static void printNumericalList(List<? extends java.lang.Number> list) {
-        for (java.lang.Number num : list) {
+    public static void printNumericalList(List<? extends Number> list) {
+        for (Object num : list) {
             System.out.print(num + " ");
         }
         System.out.println();
     }
 
-    public static void printString(List<? super String> list){
-
+    public static void printObjectList(List<? super String> list){
+      for(Object num2:list){
+          System.out.println(num2+" ");
+      }
+        System.out.println();
 
     }
 
@@ -22,6 +26,7 @@ public class NumericalList {
         intList.add(10);
         intList.add(20);
         intList.add(30);
+
 
         // Printing the list of integers
         System.out.println("Integer List:");
@@ -41,5 +46,14 @@ public class NumericalList {
         List<String> stringList=new ArrayList<>();
         stringList.add("jimmy");
         stringList.add("jimk");
+
+
+        List<Object>objectList=new ArrayList<>();
+        objectList.add(new AccessModifiers());
+        objectList.add(new ArrayThread());
+
+
+        printObjectList(stringList);
+        printObjectList(objectList);
     }
 }

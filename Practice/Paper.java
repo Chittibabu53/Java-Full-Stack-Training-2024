@@ -1,4 +1,4 @@
-interface Number{
+interface Number1{
 
     void method(int x);
 }
@@ -26,7 +26,7 @@ public class Paper {
 
         System.out.println(variable);
 
-        Number obj=( int x)-> System.out.println(x+3);
+        Number1 obj=( int x)-> System.out.println(x+3);
         obj.method(3);
     }
 
