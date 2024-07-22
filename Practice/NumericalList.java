@@ -13,6 +13,7 @@ public class NumericalList {
     }
 
     public static void printObjectList(List<? super String> list){
+
       for(Object num2:list){
           System.out.println(num2+" ");
       }
@@ -41,6 +42,7 @@ public class NumericalList {
         // Printing the list of longs
         System.out.println("Long List:");
         printNumericalList(longList);
+
 
 
         List<String> stringList=new ArrayList<>();
