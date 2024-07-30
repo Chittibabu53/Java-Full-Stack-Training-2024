@@ -25,9 +25,6 @@ public class ReversingArray {
             a=a^b;
 
 
-
-
-
             System.out.println(a+""+b);
 
         }

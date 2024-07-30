@@ -31,8 +31,6 @@ class Movies implements Comparable<Movies>{
     }
 }
 
-
-
 public class ComparableInterface {
 
     public static void main(String[] args) {
@@ -47,10 +45,6 @@ public class ComparableInterface {
 
         Collections.sort(arrayList);
         System.out.println(arrayList);
-
-
-
-
 
 
 

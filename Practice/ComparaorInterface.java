@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.List;
 
 class Students {
     int rollNo;
@@ -51,7 +52,6 @@ public class ComparaorInterface {
         list.add(new Students(3,"c","c address"));
         list.add(new Students(5,"e","e address"));
 
-
         System.out.println("beforesorting"+list);
 
         Collections.sort(list,new SortingRoll());
@@ -60,8 +60,6 @@ public class ComparaorInterface {
 
         Collections.sort(list,new SortingName());
         System.out.println(list);
-
-
 
 
 
